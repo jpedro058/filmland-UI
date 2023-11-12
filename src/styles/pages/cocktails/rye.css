@@ -1,0 +1,174 @@
+.CocktailRye {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5b9;
+}
+
+.CocktailRye .content {
+  display: block;
+  width: 928px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4rem;
+  padding-top: 10rem;
+}
+
+.CocktailRye .content .main_img {
+  display: block;
+  width: 100%;
+  height: 1500px;
+  background-image: url(/src/assets/cocktails/rye/template.webp);
+  background-color: rgba(240, 248, 255, 0);
+  background-size: 100% 100%;
+  background-position: 0 0;
+  border-radius: 60px;
+}
+.CocktailRye .content .main_img .inside_content {
+  display: block;
+}
+
+.CocktailRye .content .main_img .inside_content img {
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 500px;
+  left: -20px;
+  top: 60px;
+}
+
+.CocktailRye .content .main_img .inside_content h2 {
+  display: block;
+  text-align: center;
+  margin-top: 8rem !important;
+  line-height: 40px;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(67, 64, 64);
+  letter-spacing: 5px;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.CocktailRye .content .main_img .inside_content .cocktail_div {
+  margin-top: 7rem;
+  position: relative;
+}
+
+.CocktailRye .content .main_img .inside_content .cocktail_div a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 4rem;
+  min-width: 100%;
+}
+
+.CocktailRye .content .main_img .inside_content .cocktail_div img {
+  position: absolute;
+  /* width: 100px;
+  top: -100px; */
+  bottom: auto;
+}
+
+.CocktailRye .content .main_img .inside_content .cocktail_div h3 {
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(67, 64, 64);
+  font-weight: 600;
+}
+
+.CocktailRye .content .main_img .inside_content .cocktail_div p {
+  width: 35%;
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(67, 64, 64);
+}
+
+.CocktailRye .content .main_img .inside_content .cocktail_div button {
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5b9;
+  padding: 0.5rem 1.3rem;
+  color: rgb(67, 64, 64);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 1rem;
+}
+
+.CocktailRye .content .main_img .inside_content .cocktail_div button:hover {
+  background-color: #ebea9f;
+}
+
+.bottom_text_rye {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 1rem;
+}
+
+.bottom_text_rye p {
+  width: 50%;
+  text-align: center;
+  font-weight: 400;
+  color: rgb(67, 64, 64);
+  font-size: 1rem;
+}
+
+.bottomLink2 .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bottomLink2 .text .title {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomLink2 .text p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  gap: 1rem;
+  color: black;
+  position: relative;
+}
+
+.bottomLink2 span {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  right: -3rem;
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+.bottomLink2 .text .subtitle {
+  font-weight: 100;
+  font-size: 1rem;
+}

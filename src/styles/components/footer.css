@@ -1,0 +1,147 @@
+.footer {
+  min-height: 23vh;
+  background-color: black;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .upper_container {
+  display: flex;
+  gap: 2rem;
+  width: 50%;
+  height: 70%;
+  border-bottom: 2px solid white;
+  padding-block: 2rem;
+  position: relative;
+}
+
+.footer .upper_container::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50px;
+  position: absolute;
+  top: auto;
+  bottom: -5px;
+  right: 0%;
+  left: auto;
+}
+
+.footer .upper_container::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50px;
+  position: absolute;
+  top: auto;
+  bottom: -5px;
+  left: 0%;
+  right: auto;
+}
+
+.footer .upper_container .partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  min-width: fit-content;
+  width: fit-content;
+  margin-left: 1.5rem;
+}
+
+.footer .upper_container .partner h3 {
+  font-size: 1.3rem;
+  letter-spacing: normal;
+  color: goldenrod;
+  font-weight: 600;
+}
+
+.footer .upper_container .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.footer .upper_container .text p {
+  font-size: 1rem;
+  letter-spacing: normal;
+  color: white;
+  font-weight: 100;
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.bottom_content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  min-height: fit-content;
+}
+
+.bottom_content2 .outline {
+  border: 2px solid whitesmoke;
+  padding-block: 1rem;
+  border-radius: 10px;
+  padding-inline: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: fit-content;
+  cursor: pointer;
+}
+
+.footer .upper_container .bottom_content2 a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: gold;
+  text-transform: uppercase;
+  font-weight: 100;
+  transition: all 0.3s ease-out;
+  color: white;
+}
+
+.footer .upper_container .bottom_content2 a:hover {
+  color: goldenrod;
+}
+
+.footer .upper_container .bottom_content2 img {
+  width: 15px;
+}
+
+.footer .footer_bottom_container {
+  display: flex;
+  gap: 2rem;
+  width: 50%;
+  height: 70%;
+  padding-block: 2rem;
+  color: white !important;
+}
+
+.footer .footer_bottom_container .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+}
+
+.footer .footer_bottom_container .links {
+  display: flex;
+  gap: 1rem;
+}
+
+.links,
+.social_networks {
+  letter-spacing: -1px;
+  font-size: 1.1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

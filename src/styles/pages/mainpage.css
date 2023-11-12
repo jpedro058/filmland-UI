@@ -1,0 +1,362 @@
+.mainpage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.homescreen {
+  display: flex;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.homescreen video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  z-index: -1;
+}
+
+.mainpage .storys {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 3rem;
+  background-color: black;
+  background-image: url(/src/assets/mainPage/wingsBg.jpg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  color: white;
+  position: relative;
+}
+
+.mainpage .storys .title {
+  min-width: 600px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(/src/assets/mainPage/wings.png);
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 48px;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: contain;
+  background-position: 0 0;
+}
+
+.mainpage .storys .title p {
+  font-size: 2rem;
+  letter-spacing: -2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.mainpage .storys .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: 2rem;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  width: 50%;
+}
+
+.mainpage .storys .bottomWing {
+  width: 30%;
+}
+
+.mainpage .storys .bottom_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.mainpage .storys .bottom_content span {
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  padding-inline: 0.5rem;
+}
+
+.mainpage .storys .bottom_content a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: gold;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: -2px;
+  padding-inline: 0.5rem;
+  transition: all 0.3s ease-out;
+}
+
+.mainpage .storys .bottom_content a:hover {
+  color: goldenrod;
+  scale: 1.05;
+}
+
+.mainpage .products {
+  padding-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 1.5rem;
+  gap: 1rem;
+  background-color: black;
+  background-image: url(/src/assets/mainPage/backgroundDefault.jpg);
+  background-position: 0 0;
+  background-repeat: repeat-y;
+  min-width: 100%;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.mainpage .products h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+.mainpage .products .content {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.mainpage .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 3rem;
+  padding-block: 3rem;
+  min-width: 70%;
+}
+
+.mainpage .types {
+  display: flex;
+  min-width: 100%;
+  height: 70vh;
+}
+
+.mainpage .types .types_content {
+  display: flex;
+  flex: 50%;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 50%;
+  height: 70vh;
+  background-color: rgb(252, 241, 226);
+}
+
+.mainpage .types .types_contentleft_container {
+  display: flex;
+  flex: 40;
+  width: 40%;
+  max-height: 70vh;
+}
+
+.mainpage .types .types_contentleft_container .content_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 100%;
+  height: 100%;
+}
+.mainpage .types .types_contentleft_container img {
+  width: 100px;
+}
+
+.types_contentright_container {
+  display: flex;
+  flex: 60;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+}
+
+.types_contentright_container .content_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  width: 60%;
+  height: 100%;
+}
+
+.types_contentright_container .content_right h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  color: black;
+}
+
+.types_contentright_container .content_right p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.types_contentright_container .content_right span {
+  color: rgb(166, 120, 68);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+}
+
+.mainpage .types .types_slider {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+  min-height: 100%;
+  background-color: rgb(152, 111, 50);
+}
+
+.mainpage .cocktail {
+  background-image: url("/src/assets/mainPage/drinkBg.jpg");
+  background-position: 50%;
+  background-size: cover;
+  min-width: 100%;
+  height: 65vh;
+}
+
+.mainpage .cocktail .cocktail_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  max-width: none;
+  width: 50%;
+  float: right;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.cocktail_text p {
+  max-width: 345px;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 25px;
+  display: block;
+}
+h3 {
+  float: none;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  object-fit: fill;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: -1px;
+  line-height: 48px;
+  position: static;
+}
+
+.join_list {
+  background-image: url("/src/assets/mainPage/space.jpg");
+  background-position: 50%;
+  background-size: cover;
+  min-width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+}
+
+.join_list .content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.join_list .content p {
+  min-width: fit-content;
+
+  max-width: 345px;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 25px;
+  display: block;
+}
+
+.join_list form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  gap: 1rem;
+}
+
+.join_list .content input {
+  width: 80%;
+  padding-block: 1.3rem;
+  padding-inline: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.join_list .content input:focus {
+  outline: none;
+}
+
+.join_list .content input:invalid {
+  border: 1px solid red;
+}
+
+.join_list .content input:valid {
+  border: 1px solid green;
+}
+
+.join_list .content button {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.join_list .content button:hover {
+  color: rgb(219, 207, 176);
+}

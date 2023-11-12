@@ -1,0 +1,130 @@
+.process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.process .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+  padding-top: 13rem;
+}
+
+.process .content .header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+  height: 10rem;
+  color: white;
+  gap: 1rem;
+}
+
+.process .content .header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: -2px;
+  color: rgb(179, 114, 10);
+}
+
+.process .content .header p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  width: 50%;
+  line-height: 35px;
+}
+
+.process .content .process_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding-block: 4rem;
+}
+
+.process .content .process_cards .process_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 17rem;
+  height: 25rem;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out,
+    background-position 0.5s ease-in-out;
+  position: relative;
+}
+
+.process .content .process_cards .process_card .front_content {
+  opacity: 1;
+  color: rgb(179, 114, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  transition: all 0.5s ease-in-out;
+  padding-inline: 0.2rem;
+}
+
+.process .content .process_cards .process_card .front_content p {
+  font-size: 1.8rem;
+  font-weight: 100;
+  text-transform: capitalize;
+  letter-spacing: -2px;
+}
+
+.process .content .process_cards .process_card .back_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  color: rgb(179, 114, 10);
+  min-height: 100%;
+  transition: all 0.5s ease-out;
+  padding-inline: 0.4rem;
+}
+
+.process .content .process_cards .process_card .back_content p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: rgb(224, 224, 224);
+  text-align: center;
+  width: 80%;
+  line-height: 30px;
+}
+
+.process .content .process_cards .process_card:hover .front_content {
+  opacity: 0;
+}
+
+.process .content .process_cards .process_card:hover .back_content {
+  opacity: 1;
+  min-height: 100%;
+  padding-inline: 0.4rem;
+  text-align: center;
+}
+
+.process .content .process_cards .process_card:hover {
+  background-size: 110% 110%;
+  background-position: center;
+}

@@ -1,0 +1,238 @@
+.cocktailBourbon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/src/assets/cocktails/bourbon/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cocktailBourbon .content {
+  display: block;
+  min-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4rem;
+  padding-top: 13rem;
+}
+
+.cocktailBourbon .content .main_img {
+  display: block;
+  height: 2350px;
+  background-image: url(/src/assets/cocktails/bourbon/mainImage.jpg);
+  background-color: rgba(240, 248, 255, 0);
+  background-size: 100% 100%;
+  border-radius: 60px;
+  background-position: 0 0;
+  position: relative;
+}
+.cocktailBourbon .content .main_img .inside_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.cocktailBourbon .content .main_img .inside_content img {
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 150px;
+  left: -20px;
+  top: 60px;
+}
+
+.cocktailBourbon .content .main_img .inside_content h2 {
+  margin-top: 8rem !important;
+  margin-bottom: 40px;
+  line-height: 40px;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(67, 64, 64);
+  letter-spacing: 5px;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.cocktailBourbon .content .main_img .inside_content .cocktails {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  min-height: 100%;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.cocktailBourbon .content .main_img .inside_content .cocktails .cocktail_img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.cocktailBourbon .content .main_img .inside_content .cocktails .cocktail_img a {
+  width: fit-content;
+}
+
+.cocktailBourbon
+  .content
+  .main_img
+  .inside_content
+  .cocktails
+  .cocktail_img
+  img {
+  display: block;
+  top: 0;
+  right: 0;
+  width: 300px;
+}
+
+.cocktailBourbon .content .main_img .inside_content .cocktails .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.inside_content .cocktails .text h4 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -2px;
+  line-height: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgb(67, 64, 64);
+}
+
+.inside_content .cocktails .text p {
+  font-size: 1.2rem;
+  max-width: 400px;
+  line-height: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgb(67, 64, 64);
+}
+
+.inside_content .cocktails .text button {
+  display: block;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgba(67, 64, 64, 0);
+  color: rgb(36, 36, 36);
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.inside_content .cocktails .text button:hover {
+  scale: 1.05;
+}
+
+.inside_content .cocktails .text a {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+
+.inside_content .bottom_text {
+  display: block;
+  position: absolute;
+  bottom: 5rem;
+  left: 6rem;
+  text-align: center;
+  width: 100%;
+}
+
+.inside_content .bottom_text p {
+  font-size: 1.2rem;
+  width: 80%;
+  line-height: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgb(67, 64, 64);
+}
+
+.bottomLink2 {
+  padding-top: 2rem;
+  min-width: 100%;
+}
+
+.bottomLink2 a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 100%;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.bottomLink2 img {
+  width: 200px !important;
+}
+
+.bottomLink2 p {
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: black;
+}
+
+.bottomLink2 .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bottomLink2 .text p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  gap: 1rem;
+  color: black;
+  position: relative;
+}
+
+.bottomLink2 span {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  right: -3rem;
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+.bottomLink2 .text .subtitle {
+  font-weight: 100;
+  font-size: 1rem;
+}
