@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="links">
         <ul>
           <li className="li_text">
-            <div className="dropdown">
+            {/* <div className="dropdown">
               <p>
                 Spirits <IoMdArrowDropdown />
               </p>
@@ -39,7 +39,7 @@ export default function Navbar() {
                   Cask Straight Rye
                 </a>
               </div>
-            </div>
+            </div> */}
           </li>
           <li className="li_text">
             <div className="dropdown">
@@ -49,10 +49,6 @@ export default function Navbar() {
               <div className="dropdown-content">
                 <a id="dropdown_text" href="/whisky">
                   Whikey
-                </a>
-
-                <a id="dropdown_text" href="/store-locator">
-                  Store Locator
                 </a>
 
                 <a id="dropdown_text" href="/merchandise">
